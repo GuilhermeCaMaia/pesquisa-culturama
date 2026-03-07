@@ -117,8 +117,27 @@
                 <br>
                 <label for="favoriteColor">Cor favorita</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
+                <br>
             </fieldset>
-            <button type="submit">Enviar</button>
+            <fieldset>
+                <legend>Opnião</legend>
+                <p>O que você acha da qualidade do nosso serviço?</p>
+                <input type="radio" name="UserOpinion" id="excellent" value="excellent">
+                <label for="excellent">Otimo</label>
+                <br>
+                <input type="radio" name="UserOpinion" id="good" value="good">
+                <label for="good">Bom</label>
+                <br>
+                <input type="radio" name="UserOpinion" id="regular" value="regular">
+                <label for="regular">Regular</label>
+                <br>
+                <input type="radio" name="UserOpinion" id="bad" value="bad">
+                <label for="bad">Ruim</label>
+                <br>
+                <label for="comment">Escreva sua opnião</label>
+                <textarea name="userComment" id="comment" placeholder="Digite aqui..."></textarea>
+            </fieldset>
+            <button type="submit" placeholder="">Enviar</button>
         </form>
     </section>
 </body>
